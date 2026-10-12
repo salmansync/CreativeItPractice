@@ -1,0 +1,638 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background: #c1884b;
+  height: 100&;
+}
+
+.flagOneToFive {
+  display: flex;
+}
+
+.japan {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background: white;
+  margin: 10px 10px;
+}
+
+.jpRed {
+  position: absolute;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background: red;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.india {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 10px 10px;
+  background: white;
+}
+
+.indiaOne {
+  position: absolute;
+  height: 67px;
+  width: 100%;
+  background: orange;
+  top: 0;
+}
+
+.indiaTwo {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background: url(../Image/indiaLogo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.indiaThree {
+  position: absolute;
+  height: 67px;
+  width: 100%;
+  background: green;
+  left: 0;
+  bottom: 0;
+}
+
+.sweden {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 10px 10px;
+  background: rgb(0, 106, 167);
+}
+
+.swedenOne {
+  position: absolute;
+  width: 35px;
+  height: 200px;
+  background: #fecc02;
+  left: 90px;
+}
+
+.swedenTwo {
+  position: absolute;
+  width: 100%;
+  height: 35px;
+  background: #fecc02;
+  top: 90px;
+}
+
+.myanmar {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 10px 10px;
+  background: green;
+}
+
+.myanmarOne {
+  position: absolute;
+  height: 33.333%;
+  width: 100%;
+  background: yellow;
+  top: 0;
+}
+
+
+
+.myanmarThree {
+  position: absolute;
+  height: 33.333%;
+  width: 100%;
+  background: red;
+  bottom: 0;
+}
+
+.myanmarTwo {
+  position: absolute;
+  clip-path: polygon(50% 0%, 63% 38%, 100% 38%, 69% 59%, 82% 100%, 50% 75%, 18% 100%, 31% 59%, 0% 38%, 37% 38%);
+  width: 100px;
+  height: 100px;
+  background: white;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.vietnamOne {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background: red;
+  margin: 10px 10px;
+}
+
+.vietnamTwo {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  clip-path: polygon(50% 0%, 63% 38%, 100% 38%, 69% 59%, 82% 100%, 50% 75%, 18% 100%, 31% 59%, 0% 38%, 37% 38%);
+}
+
+.flagSixToTen {
+  display: flex;
+}
+
+.greece {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 10px 10px;
+  background: blue;
+}
+
+.greeceOne {
+  position: absolute;
+  height: 11.11%;
+  width: 100%;
+  background: white;
+  top: 11.11%;
+
+}
+
+.greeceTwo {
+  position: absolute;
+  width: 100%;
+  height: 11.11%;
+  background: white;
+  top: 33.33%;
+
+}
+
+.greeceThree {
+  position: absolute;
+  width: 100%;
+  height: 11.11%;
+  background: white;
+  top: 55.55%;
+}
+
+.greeceFour {
+  position: absolute;
+  width: 100%;
+  height: 11.11%;
+  background: white;
+  top: 77.77%;
+
+}
+
+.greeceFive {
+  position: relative;
+  width: 100px;
+  height: 111px;
+  background: blue;
+}
+
+.GreeceOne {
+  position: absolute;
+  background: white;
+  height: 101%;
+  width: 22.22px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.GreeceTwo {
+  position: absolute;
+  background: white;
+  height: 22.22px;
+  width: 101%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.chinaOne {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background: red;
+  margin: 10px 10px;
+}
+
+.chinaTwo {
+  position: absolute;
+  width: 100px;
+  height: 85px;
+  background: url(../Image/chinaLogo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: 10px;
+  top: 10px;
+}
+
+.pakistan {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background: green;
+  margin: 10px 10px;
+}
+
+.pakistanOne {
+  position: absolute;
+  width: 25%;
+  height: 200px;
+  background: rgb(245, 250, 245);
+
+}
+
+.pakistanTwo {
+  position: relative;
+  width: 74%;
+  height: 200px;
+  background: green;
+  left: 25%;
+}
+
+.pakistanThree {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background: url(../Image/PakistanLogo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.portugal {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background: red;
+  margin: 10px 10px;
+}
+
+.portugalOne {
+  position: absolute;
+  width: 45%;
+  height: 200px;
+  background: green;
+
+}
+
+.portugalThree {
+  position: absolute;
+  height: 98px;
+  width: 125px;
+  background: url(../Image/portugalLogo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: 45%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.spain {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 10px 10px;
+  background: orange;
+}
+
+.spainOne {
+  position: absolute;
+  height: 67px;
+  width: 100%;
+  background: red;
+  top: 0;
+}
+
+.spainTwo {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  background: url(../Image/spainLogo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: 25%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.spainThree {
+  position: absolute;
+  height: 67px;
+  width: 100%;
+  background: red;
+  left: 0;
+  bottom: 0;
+}
+
+.flagEightTOFifteen {
+  display: flex;
+}
+
+.switzerland {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 10px 10px;
+  background: red;
+}
+
+.switzerlandOne {
+  position: absolute;
+  background: white;
+  height: 117px;
+  width: 40px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.switzerlandTwo {
+  position: absolute;
+  background: white;
+  height: 40px;
+  width: 132px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.argentina {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 10px 10px;
+  background: white;
+}
+
+.argentinaOne {
+  position: absolute;
+  height: 67px;
+  width: 100%;
+  background: rgb(44, 181, 227);
+  top: 0;
+}
+
+.argentinaTwo {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background: url(../Image/argentinaLogo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.argentinaThree {
+  position: absolute;
+  height: 67px;
+  width: 100%;
+  background: rgb(44, 181, 227);
+  left: 0;
+  bottom: 0;
+}
+
+
+.canada {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 10px 10px;
+  background: white;
+}
+
+.canadaOne {
+  position: absolute;
+  height: 100%;
+  width: 75px;
+  background: red;
+  top: 0;
+}
+
+.canadaTwo {
+  position: absolute;
+  height: 80px;
+  width: 75px;
+  background: url(../Image/canadaLogo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.canadaThree {
+  position: absolute;
+  height: 100%;
+  width: 75px;
+  background: red;
+  right: 0;
+  bottom: 0;
+}
+
+.france {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 10px 10px;
+  background: white;
+}
+
+.franceOne {
+  position: absolute;
+  height: 100%;
+  width: 33.33%;
+  background: blue;
+  top: 0;
+}
+
+
+
+.franceThree {
+  position: absolute;
+  height: 100%;
+  width: 33.33%;
+  background: red;
+  right: 0;
+  bottom: 0;
+}
+
+.palestine {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 10px 10px;
+  background: white;
+}
+
+.palestineOne {
+  position: absolute;
+  height: 67px;
+  width: 100%;
+  background: black;
+  top: 0;
+}
+
+
+.palestineTwo {
+  position: absolute;
+  height: 67px;
+  width: 100%;
+  background: green;
+  left: 0;
+  bottom: 0;
+}
+
+.palestineThree {
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+  background: red;
+  left: 0;
+  top: 25%;
+  transform: rotate(90deg);
+}
+
+.sixteenToTweenty {
+  display: flex;
+}
+
+.turkey {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background: red;
+  margin: 10px 10px;
+}
+
+.turkeylogo {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  background: url(../Image/turkeyLogo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.algeria {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background: white;
+  margin: 10px 10px;
+}
+
+.algeriaOne {
+  position: absolute;
+  width: 50%;
+  height: 200px;
+  background: green;
+
+}
+
+.algeriaThree {
+  position: absolute;
+  height: 165px;
+  width: 260px;
+  background: url(../Image/algeria.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.albania {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background: red;
+  margin: 10px 10px;
+}
+
+.albanialogo {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  background: url(../Image/albanianLogo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.soudi {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background: green;
+  margin: 10px 10px;
+}
+
+.soudilogo {
+  position: absolute;
+  height: 200px;
+  width: 150px;
+  background: url(../Image/saudiLogo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.indonesia {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 10px 10px;
+  background: white;
+}
+
+.indonesiaOne {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  background: red;
+
+}
