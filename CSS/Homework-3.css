@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bannerBg {
+  height: 600px;
+  background: url(../Image/pexels-steve-1155477.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mainOne {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mainTwo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainThree {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mainFour {
+  display: flex;
+  justify-content: start;
+}
+
+.mainFive {
+  display: flex;
+  justify-content: end;
+}
+
+.mainSix {
+  display: flex;
+  justify-content: center;
+}
+
+.oneDiv {
+  height: 70px;
+  width: 70px;
+  padding: 20px 0px 0px 20px;
+  background-color: tomato;
+}
+
+.twoDiv {
+  height: 70px;
+  width: 70px;
+  padding: 20px 0px 0px 20px;
+  background-color: teal;
+}
+
+.threeDiv {
+  height: 70px;
+  width: 70px;
+  background-color: blueviolet;
+  padding: 20px 0px 0px 20px;
+  margin: 190px auto;
+}
+
+h3 {
+  color: white;
+
+
+}

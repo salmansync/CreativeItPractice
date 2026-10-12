@@ -1,0 +1,15 @@
+.div {
+  background-color: rgb(226, 165, 122);
+}
+
+.boxOne {
+  width: 100px;
+  height: 100px;
+  background: rgb(126, 4, 4);
+}
+
+.boxTwo {
+  width: 100px;
+  height: 100px;
+  background: rgb(83, 8, 102);
+}
