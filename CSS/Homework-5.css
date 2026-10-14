@@ -148,3 +148,22 @@ li {
   font-size: 60px;
 
 }
+
+.six {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  right: 10%;
+  top: 45%;
+  position: fixed;
+  background: rgb(141, 226, 43);
+  z-index: 1;
+  color: white;
+  font-size: 35px;
+}
+
+
+
+.six p {
+  padding: 100px 100px;
+}
