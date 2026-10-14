@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.full {
+  display: flex;
+  height: 50px;
+  background: rgb(255, 38, 0);
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 20px;
+
+}
+
+.full h5 {
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.full p {
+  padding: 10px 30px;
+  font-family: "Crete Round", serif;
+
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+
+}
+
+.containerfull {
+  background: rgba(238, 130, 238, 0.3);
+}
+
+.menu {
+  background: coral;
+  padding: 20px 0;
+
+
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  font-size: 20px;
+  transition: 0.4;
+
+}
+
+.menu ul li a:hover {
+  font-size: 25px;
+  color: black;
+  font-weight: 600;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+.bannerBg {
+  background: url(../Image/winter.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 380px 0;
+}
+
+.one {
+  height: 350px;
+  width: 300px;
+  position: absolute;
+  background: red;
+  z-index: 5;
+  color: white;
+  font-size: 60px;
+
+}
+
+.two {
+  height: 350px;
+  width: 300px;
+  position: absolute;
+  background: brown;
+  left: 15%;
+  top: 15%;
+  z-index: 4;
+  color: white;
+  font-size: 60px;
+
+}
+
+
+.three {
+  height: 350px;
+  width: 300px;
+  position: absolute;
+  background: forestgreen;
+  left: 25%;
+  top: 25%;
+  z-index: 3;
+  color: white;
+  font-size: 60px;
+}
+
+.four {
+  height: 350px;
+  width: 300px;
+  position: absolute;
+  background: goldenrod;
+  left: 35%;
+  top: 35%;
+  z-index: 2;
+  color: white;
+  font-size: 60px;
+
+}
+
+.five {
+  height: 350px;
+  width: 300px;
+  left: 45%;
+  top: 45%;
+  position: absolute;
+  background: blueviolet;
+  z-index: 1;
+  color: white;
+  font-size: 60px;
+
+}
