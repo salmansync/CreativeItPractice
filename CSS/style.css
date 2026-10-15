@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+  background: coral;
+
+}
+
+.main ul li a:hover {
+
+  color: black;
+  font-weight: 600;
+}
+
+
+
+.full {
+  height: 50px;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.main {
+  background: rebeccapurple;
+  padding: 20px 0;
+
+}
+
+.main ul {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+
+}
+
+.main ul a {
+  font-size: 20px;
+  color: white;
+
+
+  font-weight: 800;
+
+
+}
