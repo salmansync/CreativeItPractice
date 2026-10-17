@@ -3,36 +3,143 @@
   padding: 0;
 }
 
-ul,
 ol,
+ul,
 a {
   text-decoration: none;
   list-style: none;
 }
 
-.container {
-  width: 1320px;
-  margin: 0 auto;
-  background: coral;
+
+.full {
+  display: flex;
+  height: 50px;
+  background: rgb(255, 38, 0);
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 20px;
+  column-gap: 50px;
 
 }
 
-.main ul li a:hover {
 
+.full p {
+  position: relative;
+  display: flex;
+  grid-column: 50px;
+  top: 15px;
+  left: 8%;
+  font-family: "Crete Round", serif;
+
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+
+}
+
+.fullbg {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+  background: orange;
+  padding: 20px 0;
+
+
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  font-size: 20px;
+  transition: 0.4s;
+
+}
+
+.menu ul li a:hover {
+  font-size: 20px;
   color: black;
   font-weight: 600;
 }
 
-
-
-.full {
-  height: 50px;
-  background: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
-  font-weight: 400;
-  font-size: 20px;
+.menu ul {
   display: flex;
   justify-content: center;
+  column-gap: 40px;
+}
+
+.text-img {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  background-color: orangered;
+}
+
+.text-img p {
+  color: white;
+  position: relative;
+  top: 200px;
+  font-size: 20px;
+  padding: 0 50px 50px 50px;
+
+}
+
+.card {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  margin: 50px;
+}
+
+.card img {
+
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+  transition: transform 0.4s;
+}
+
+.cardOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+  background: rgba(255, 251, 0, 0.5);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.card:hover .cardOverlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+.text-img .text h1 {
+  color: white;
+  position: relative;
+  top: 180px;
+  font-size: 45px;
+  padding-left: 50px;
+
+
+}
+
+.allhw {
+  display: flex;
+  justify-content: center;
+  background: rgb(255, 38, 0);
+  color: white;
+  font-size: 30px;
+  padding: 20px 0 20px 0;
+  font-weight: 800;
+
 
 }
 
@@ -55,4 +162,13 @@ a {
   font-weight: 800;
 
 
+}
+
+.main ul li a:hover {
+
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+  font-weight: 800;
+  transition: 0.4s;
 }
