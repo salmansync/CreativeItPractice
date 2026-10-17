@@ -14,6 +14,7 @@ a {
 .full {
   display: flex;
   height: 50px;
+  width: 100%;
   background: rgb(255, 38, 0);
   color: rgb(255, 255, 255);
   font-weight: 400;
